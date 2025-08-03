@@ -1,4 +1,4 @@
-![A beautiful mosaic town](Assets/Images/.jpg)
+![A beautiful mosaic town](Assets /Images/mosaic town temp image.jpg)
 # Welcome to Mosaic Town
 
 This is my personal space on the web, built to house a mosaic of interests. Here you'll find the **Lab** built to keep all the science stuff like my research and academic resources, the **Art Gallery** showcasing my creative projects, and the **Town Square Cafe** for my thoughts and musings. A small **Library** where you'll find my works in literature and an **Observatory** which points not to the vast cosmos but the tangible world around me are under construction. 
