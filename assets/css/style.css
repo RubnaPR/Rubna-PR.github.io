@@ -1,1 +1,121 @@
+/* --- Basic Setup --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* A light grey background */
+    color: #333;
+}
 
+/* --- 1. The Header Image --- */
+.hero-header {
+    background-image: url('/assets/images/mosaic-town-temp-image.jpg'); /* CHANGE THIS FILENAME! */
+    background-size: cover;
+    background-position: center;
+    height: 40vh; /* 40% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.hero-header h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+/* --- 2. The Navigation Bar --- */
+.main-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 1.5rem;
+    font-size: 1.1rem;
+}
+
+.main-nav a:hover {
+    color: #f0c419; /* A gold color for hover effect */
+}
+
+/* --- 3. The Two-Column Layout --- */
+.main-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 2rem auto; /* Center the container on the page */
+    gap: 2rem; /* The space between the sidebar and main content */
+}
+
+.sidebar {
+    flex: 0 0 250px; /* Sidebar will be 250px wide and won't grow/shrink */
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.main-content {
+    flex: 1; /* Main content takes up the remaining space */
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+/* --- Sidebar Styles --- */
+.profile-pic {
+    width: 100%;
+    border-radius: 50%; /* Makes the image a circle */
+    margin-bottom: 1rem;
+}
+
+.sidebar h3, .sidebar h4 {
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 0.5rem;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar ul li a:hover {
+    color: #f0c419;
+}
+
+
+/* --- For Mobile Phones --- */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column; /* Stack the columns on top of each other */
+    }
+
+    .hero-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+}
+
+```4.  **Very Important:** Find the line `background-image: url('/assets/images/mosaic-town-temp-image.jpg');` and change `mosaic-town-temp-image.jpg` to the actual filename of your cover image.
+5.  Click **"Commit changes"**.
+
+### **Step 3: What About `README.md`?**
+
+Now that `index.html` is your homepage, your `README.md` file is no longer displayed on your website. It will only be seen by people who visit your *code repository* on GitHub. It's good practice to keep it as a short description of the project for other developers.
+
+---
+
+Wait a minute or two for GitHub to update, and then visit `https://your-username.github.io`. You should see your new, professionally laid-out homepage
