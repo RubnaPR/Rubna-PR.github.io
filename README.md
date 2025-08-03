@@ -1,4 +1,4 @@
-![A beautiful mosaic town](mosaic-town.jpg)
+![A beautiful mosaic town](mosaic town temp image.jpg)
 
 # Welcome to Mosaic Town
 
