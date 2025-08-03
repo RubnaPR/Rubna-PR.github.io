@@ -1,4 +1,4 @@
-![A beautiful mosaic town](Assets /Images/mosaic town temp image.jpg)
+![A beautiful mosaic town](assets/images/mosaictowntemp.jpg)
 
 # Welcome to Mosaic Town
 
